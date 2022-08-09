@@ -1,0 +1,68 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    height: 4em;
+    font-family: "Poppins";
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, .3);
+}
+.hamburger {
+    cursor: pointer;
+    position: absolute;
+    right: 25px;
+}
+.hamburger .bar {
+    display: block;
+    width: 24px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #58595B;
+}
+.hamburger.active .bar {
+    &:nth-child(2) {
+        opacity: 0;
+    }
+    &:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+    &:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+}
+.navbar .links {
+    position: fixed;    
+    left: -100%;
+    top: 4em;
+    gap: 0;
+    flex-direction: column;
+    color: black;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+    border-bottom: 1px solid #aaa;
+}
+.navbar .links a {
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 5px 0;
+    font-weight: 500;
+    color: #58595B;
+    margin-right: 30px;
+    border-top: 1px solid #aaa;
+}
+.navbar .links.active {
+    background-color: white;
+    left: 0;
+    flex-direction: column;
+}
+.navbar .links.active a {
+    width: 100%;
+}
