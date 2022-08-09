@@ -8,6 +8,7 @@ export const Navbar = () => {
     }
     return (
         <div className="navbar">
+            <img src="assets/dpsrkp-logo.png" alt="DPS RKP logo"/>
             <div className={"links " + active}>
                 <a href="./">Home</a>
                 <a href="./">About</a>
