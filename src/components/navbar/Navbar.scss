@@ -1,5 +1,7 @@
 .navbar {
+    background-color: white;
     position: fixed;
+    z-index: 2;
     top: 0;
     left: 0;
     width: 100%;
@@ -9,7 +11,7 @@
     width: 100vw;
     height: 4.5em;
     font-family: "Poppins";
-    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, .3);    
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, .3);
     img {
         width: 3em;
         margin-left: 1.5em;
