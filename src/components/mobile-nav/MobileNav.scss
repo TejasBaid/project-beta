@@ -1,0 +1,48 @@
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .mobile-nav {
+    background-color: #60B3DD;
+    position: absolute;
+    z-index: 1000;
+    height: 40vh;
+    margin-top: 2vh;
+    width: 85vw;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: space-between;
+    padding: 0vh 0vw;
+  }
+  .link-mobile {
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 4vh;
+    color: white;
+    padding: 0vh 0.9vw;
+  }
+
+  .strike {
+    margin-top: 4vh;
+    width: 75vw;
+    height: 0.4vh;
+    opacity: 30%;
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 97%);
+  }
+  
+  .signup-button-mobile{
+    border-radius: 20px;
+    background-color: white;
+    color: rgba(0, 0, 0, 0.616);
+    padding: 1.1vh 20vw;
+    font-size: 0.9rem;
+    font-size: 1rem;
+    
+  }
+  .button{
+      margin-top: 3vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+}
