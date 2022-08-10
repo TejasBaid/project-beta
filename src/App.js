@@ -10,6 +10,7 @@ function App() {
       
       <Navbar />
       <div className="tlist">
+        <h1>School Toppers</h1>
           <Toppers />
           
         </div>
