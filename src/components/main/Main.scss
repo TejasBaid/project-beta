@@ -1,0 +1,40 @@
+.splash { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Poppins";
+    color: white;
+    width: 100vw;
+    height: 85vh;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../../public/assets/dpsrkp.png");
+    background-size: cover;
+}
+.splash h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+.splash p {
+    margin: 0 auto;
+    width: 90%;
+    font-size: 1.2em;
+}
+@media only screen and (min-width: 992px) {
+    .splash { 
+        width: 100vw;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../../public/assets/dpsrkp.png");
+        background-size: cover;
+    }
+    .splash h1 {
+        font-size: 5em;
+    }
+    .splash p {
+        font-size: 2.5em;
+    }
+}

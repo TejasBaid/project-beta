@@ -1,16 +1,10 @@
 body{
   background-color: white;
 }
+html, body {
+  overflow-x: hidden;
+}
 .table-container-box{
   width: 90vw;
   margin: 0 auto;
 }
-
-
-
-    h1 {
-        margin-bottom: 0;
-        font-size: 2em;
-        font-family: "Poppins";
-    text-align: center;
-    }
