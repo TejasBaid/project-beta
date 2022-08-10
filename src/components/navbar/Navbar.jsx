@@ -12,7 +12,7 @@ export const Navbar = () => {
             <div className={"links " + active}>
                 <a href="./">Home</a>
                 <a href="./">Analysis</a>
-                <a href="./">About</a>
+                <a href="/about">About</a>
             </div>
             <div className={"hamburger " + active} onClick={() => openLinks()}>
                 <span className="bar"></span>
