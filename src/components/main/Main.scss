@@ -25,16 +25,21 @@
 @media only screen and (min-width: 992px) {
     .splash { 
         width: 100vw;
-        height: 100vh;
-        margin: 0;
+        height: 30vh;
+        
+        margin-top: 10vh;
+        margin-bottom: -5vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         padding: 0;
         background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../../public/assets/dpsrkp.png");
         background-size: cover;
     }
     .splash h1 {
-        font-size: 5em;
+        font-size: 3em;
     }
     .splash p {
-        font-size: 2.5em;
+        font-size: 2em;
     }
 }
