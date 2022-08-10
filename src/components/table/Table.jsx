@@ -1,5 +1,5 @@
 import React from 'react'
-import Popup from 'reactjs-popup';
+
 
 export const Table = () => {
     const items = [
