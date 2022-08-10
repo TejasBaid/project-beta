@@ -1,5 +1,7 @@
 import React from "react";
 import "./Testimonials.scss";
+import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 export const Testimonials = () => {
     const testimonals = [
@@ -43,18 +45,33 @@ export const Testimonials = () => {
     return (
         <div className="testimonials">
             <h1>Testimonials</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt fuga blanditiis ea reiciendis quae facilis?</p>
+            <div className="subheader">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt fuga blanditiis ea reiciendis quae facilis?</div>
             <div className="testimonial-container">
-                { testimonals.map((testimonial, i) => {
-                    return (
-                        <div key={i} className="testimonial-card">
-                            <img src={testimonial.photo} alt={testimonial.name}/>
-                            <h3>{testimonial.name}</h3>
-                            <h4>12-{testimonial.section}</h4>
-                            <p>{testimonial.content}</p>
-                        </div>
-                    );
-                })}
+            <Carousel
+        showIndicators={false}
+        infiniteLoop={true}
+        showThumbs={false}
+        showStatus={false}
+        autoPlay={true}
+        interval={6100}
+      >
+        
+        
+        {testimonals.map((i) => {
+            console.log(i);
+            return (
+            <div>
+            <img src={i.photo} />
+            <div className="myCarousel">
+              <h3>{i.name}</h3>
+              <h4>10th {i.section}</h4>
+              <p>
+                {i.content}
+              </p>
+            </div>
+          </div>
+        )})}
+      </Carousel>
             </div>
         </div>
     );
