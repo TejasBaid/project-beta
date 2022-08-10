@@ -4,6 +4,19 @@ body{
 html, body {
   overflow-x: hidden;
 }
+fieldset {
+  border: none;
+}
+button,
+input,
+img {
+  border: none;
+  outline: none;
+}
+button,
+a {
+  cursor: pointer;
+}
 .table-container-box{
   width: 90vw;
   margin: 0 auto;
