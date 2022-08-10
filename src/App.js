@@ -6,6 +6,7 @@ import { Main } from './components/main/Main';
 import { Footer } from './components/footer/Footer';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { AboutUs } from './components/aboutus/AboutUs';
+import { Analytics } from './components/analytics/Analytics';
 
 function App() {
   return (
@@ -30,6 +31,12 @@ function App() {
           <div>
             <Navbar />
             <AboutUs />
+          </div>
+        }></Route>
+        <Route path="/analytics" element={
+          <div>
+            <Navbar />
+            <Analytics />
           </div>
         }></Route>
       </Routes>

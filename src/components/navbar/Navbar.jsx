@@ -11,8 +11,8 @@ export const Navbar = () => {
             <img src="assets/dpsrkp-logo.png" alt="DPS RKP logo"/>
             <div className={"links " + active}>
                 <a href="./">Home</a>
-                <a href="./">Analysis</a>
-                <a href="/about">About</a>
+                <a href="./analytics">Analysis</a>
+                <a href="./about">About</a>
             </div>
             <div className={"hamburger " + active} onClick={() => openLinks()}>
                 <span className="bar"></span>
