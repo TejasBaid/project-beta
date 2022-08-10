@@ -1,5 +1,5 @@
 import React from 'react'
-import './Toppers.scss'
+import './Table.scss'
 
 export const Table = () => {
     const items = [
