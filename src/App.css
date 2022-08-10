@@ -1,3 +1,7 @@
 body{
   background-color: white;
 }
+.table-container-box{
+  width: 90vw;
+  margin: 0 auto;
+}
