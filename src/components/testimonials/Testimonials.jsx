@@ -61,7 +61,7 @@ export const Testimonials = () => {
             console.log(i);
             return (
             <div>
-            <img src={i.photo} />
+            <img src={i.photo} alt="testimonial"/>
             <div className="myCarousel">
               <h3>{i.name}</h3>
               <h4>10th {i.section}</h4>
