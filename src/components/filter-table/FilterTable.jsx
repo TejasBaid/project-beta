@@ -5,7 +5,7 @@ import "./FilterTable.scss";
 export const FilterTable = () => {
     const toppers10th = [
         {
-            name: "Tejas Baid",
+            name: "Keshav Singh",
             class: "10",
             section: "E",
             s1: "100",
@@ -15,12 +15,12 @@ export const FilterTable = () => {
             s5: "100"
         },
         {
-            name: "Aditi Sharma",
+            name: "Rakshiv Sharma",
             class: "10",
             section: "B",
             s1: "100",
             s2: "100",
-            s3: "100",
+            s3: "98",
             s4: "100",
             s5: "100"
         },
@@ -29,9 +29,9 @@ export const FilterTable = () => {
             class: "10",
             section: "J",
             s1: "100",
-            s2: "98",
+            s2: "97",
             s3: "100",
-            s4: "99",
+            s4: "98",
             s5: "99"
         },
         {
@@ -41,7 +41,7 @@ export const FilterTable = () => {
             s1: "98",
             s2: "100",
             s3: "100",
-            s4: "97",
+            s4: "96",
             s5: "99"
         },
         {
@@ -50,7 +50,7 @@ export const FilterTable = () => {
             section: "C",
             s1: "99",
             s2: "97",
-            s3: "98",
+            s3: "99",
             s4: "99",
             s5: "97"
         },
@@ -58,9 +58,9 @@ export const FilterTable = () => {
             name: "Prakhar Rathi",
             class: "10",
             section: "J",
-            s1: "100",
-            s2: "95",
-            s3: "99",
+            s1: "99",
+            s2: "96",
+            s3: "98",
             s4: "100",
             s5: "96"
         },
@@ -71,24 +71,24 @@ export const FilterTable = () => {
             s1: "100",
             s2: "99",
             s3: "99",
-            s4: "94",
+            s4: "93",
             s5: "97"
         },
         {
             name: "Vasu Kumar",
             class: "10",
             section: "K",
-            s1: "97",
+            s1: "96",
             s2: "94",
-            s3: "100",
-            s4: "96",
+            s3: "98",
+            s4: "98",
             s5: "97"
         },
         {
             name: "Ryan Gupta",
             class: "10",
             section: "I",
-            s1: "100",
+            s1: "98",
             s2: "99",
             s3: "95",
             s4: "94",
