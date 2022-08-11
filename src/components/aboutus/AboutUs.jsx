@@ -7,13 +7,16 @@ export const AboutUs = () => {
         <div className="about-content">
             <h5>ABOUT US</h5>
             <h1>DPS RK PURAM</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam unde ratione in, soluta saepe qui, nesciunt, facere culpa enim quaerat nihil natus recusandae? Harum distinctio incidunt numquam velit vitae id aut mollitia ut accusantium dolorum. <br /><br />Error nisi enim sequi dignissimos dicta. Mollitia, impedit voluptate! Repellendus blanditiis illo possimus ab neque quod officia illum <br /><br /> saepe a itaque sequi iste, commodi placeat dicta dolore ipsa excepturi eligendi ipsam officiis? Sequi, atque mollitia minus animi, quisquam provident qui sapiente ratione odit alias veniam! 
+            <p>Our mission  is to nurture our students to realize their own potential and identify and achieve their goals in an environment of rich tutelage, joyful and harmonious learning while keeping alive the spirit of togetherness and ‘Service Before Self’. Our aim is to bring forth responsible citizens of the world who make a difference and who will make the school and nation proud of their achievements and stellar personal qualities 
+            <p>Our vision is to prepare our children for life by:-</p>
             <ul>
-                <li>Coffee</li>
-                <li>Tea</li>
-                <li>Milk</li>
+                <li>broadening their horizons so that their world encompasses the whole of mankind.</li>
+                <li>deepening their thoughts so that their learning becomes the means to achieve that perfection of mind in which analytical reasoning goes hand in hand with logical conclusion.</li>
+                <li>helping them incorporate the essential values of goodness, honesty, humility and discipline as an integral part of their being.</li>
+                <li>guiding them to become contented individuals whose strength lies in their ability to face adversities without fear and overcome challenges with confidence.</li>
+                <li>inculcating in them the sense of gender sensitivity so that they learn to treat everyone as equal and rise above the barriers of discrimination of any kind.</li>
             </ul>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa voluptas maiores accusantium explicabo, quisquam laudantium vero dolore aliquam porro. Delectus accusantium iste cum voluptatem quos eos, non itaque praesentium voluptate!
+            <p>Our focus is to engage students in a healthy environment of learning and self-development where the focus is on a strong value system, mental agility and physical fitness.</p>
             </p>
 
         </div>
