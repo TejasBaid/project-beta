@@ -5,7 +5,7 @@ export const Testimonials = () => {
     const testimonals = [
         {
             photo: "assets/testimonials/photo1.jpg",
-            name: "Tejas Baid",
+            name: "Keshav Singh",
             section: "12-J",
             content: "The school has supported me and has helped me push my limits and has played a huge part in my achievement."
         },
