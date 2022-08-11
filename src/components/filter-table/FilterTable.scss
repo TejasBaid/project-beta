@@ -1,12 +1,52 @@
-@media only screen and (min-width: 992px) {
-    .filter-table {
-        width: 90%;
-        margin: 5em auto;
-        .search-row {
-            justify-content: space-between;
+.filter-table {
+    width: 90%;
+    margin: 5em auto;
+    .search-row {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+}
+.search-row input {
+    font-family: "Poppins";
+    padding: 8px;
+    font-weight: 600;
+    background-color: rgb(199, 231, 204);
+    color: #555555;
+    ::placeholder {
+        font-weight: 600;
+        color: #767676;
+    }
+}
+.filter-table table {
+    width: 100%;
+    font-family: "Poppins";
+    font-size: 1em;
+    margin-top: 1.5em;
+    border-collapse: collapse;
+    thead {
+        color: #555;
+        opacity: 0.8;
+        
+        tr > th {
+            border-bottom: 1px solid #666;
         }
     }
-    .search-row input {
-        font-family: "Poppins";
+    td, th {
+        padding: 15px;
+    }
+    tr:nth-child(even){
+        background-color: rgb(222, 248, 225);
+    }
+    tr td{
+        text-align: center;
+    }
+}
+.mobile-hide {
+    display: none;
+}
+@media only screen and (min-width: 992px) {    
+    .mobile-hide {
+        display: "";
     }
 }
