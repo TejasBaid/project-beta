@@ -1,3 +1,11 @@
+@keyframes animatebottom {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
 .filter-table {
     width: 90%;
     margin: 5em auto;
@@ -56,6 +64,9 @@
     border-collapse: collapse;
     tbody.hide {
         display: none;
+    }
+    tbody {
+        animation: animatebottom 1s;
     }
     thead {
         color: #555;
