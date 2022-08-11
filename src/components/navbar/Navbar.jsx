@@ -16,6 +16,7 @@ export const Navbar = () => {
             <div className="right">
                 <div className={"links " + active}>
                     <Link to="/">Home</Link>
+                    <Link to="/testimonials">Testimonials</Link>
                     <Link to="/analytics">Analytics</Link>
                     <Link to="/about">About</Link>
                 </div>

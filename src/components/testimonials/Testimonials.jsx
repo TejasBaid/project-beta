@@ -6,37 +6,37 @@ export const Testimonials = () => {
         {
             photo: "assets/testimonials/photo1.jpg",
             name: "Tejas Baid",
-            section: "J",
+            section: "12-J",
             content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, consequatur. Dolor voluptate labore quasi perferendis, accusantium facere numquam distinctio inventore!"
         },
         {
-            photo: "assets/testimonials/photo1.jpg",
-            name: "Akshay",
-            section: "D",
+            photo: "assets/testimonials/photo2.jpeg",
+            name: "Aadi Jain",
+            section: "12-D",
             content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, consequatur. Dolor voluptate labore quasi perferendis, accusantium facere numquam distinctio inventore!"
         },
         {
-            photo: "assets/testimonials/photo1.jpg",
-            name: "Aditi",
-            section: "B",
+            photo: "assets/testimonials/photo3.jpeg",
+            name: "Adit Magotra",
+            section: "12-H",
             content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, consequatur. Dolor voluptate labore quasi perferendis, accusantium facere numquam distinctio inventore!"
         },
         {
-            photo: "assets/testimonials/photo1.jpg",
-            name: "Tejas Baid",
-            section: "J",
+            photo: "assets/testimonials/photo4.jpeg",
+            name: "Vidushi Jain",
+            section: "10-B",
             content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, consequatur. Dolor voluptate labore quasi perferendis, accusantium facere numquam distinctio inventore!"
         },
         {
-            photo: "assets/testimonials/photo1.jpg",
-            name: "Akshay",
-            section: "D",
+            photo: "assets/testimonials/photo5.jpeg",
+            name: "Nitish Sehgal",
+            section: "10-D",
             content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, consequatur. Dolor voluptate labore quasi perferendis, accusantium facere numquam distinctio inventore!"
         },
         {
-            photo: "assets/testimonials/photo1.jpg",
-            name: "Aditi",
-            section: "B",
+            photo: "assets/testimonials/photo6.jpeg",
+            name: "Gerick Razdan",
+            section: "12-B",
             content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, consequatur. Dolor voluptate labore quasi perferendis, accusantium facere numquam distinctio inventore!"
         }
     ];
@@ -50,7 +50,7 @@ export const Testimonials = () => {
                         <div key={i} className="testimonial-card">
                             <img src={testimonial.photo} alt={testimonial.name}/>
                             <h3>{testimonial.name}</h3>
-                            <h4>12-{testimonial.section}</h4>
+                            <h4>{testimonial.section}</h4>
                             <p>{testimonial.content}</p>
                         </div>
                     );

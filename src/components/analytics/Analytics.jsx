@@ -109,7 +109,7 @@ const science = {
 };
 
 const social = {
-  labels: ["95-100%", "90-95%", "85-90%"],
+  labels: ["90-100%", "80-90%", "70-80%"],
   datasets: [
     {
       label: '# of Votes',

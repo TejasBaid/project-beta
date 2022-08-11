@@ -17,11 +17,17 @@ function App() {
           <Navbar />
           <Main/>
           <FilterTable/>
-          <Testimonials />
           <Footer/>
         </div>}>
           
         </Route>
+        <Route path="/testimonials" element={
+          <div>
+            <Navbar />
+            <Testimonials />
+            <Footer/>
+          </div>
+          }></Route>
         <Route path="/about" element={
           <div>
             <Navbar />
