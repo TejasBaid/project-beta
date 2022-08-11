@@ -1,3 +1,17 @@
+.analytics-cont {
+    margin-top: 5em;
+}
+.analytics-cont h1 {
+    font-family: "Poppins";
+    text-align: center;
+    width: 100%;
+}
+.analytics-cont p {
+    text-align: center;
+    margin-top: 0;
+    font-family: "Poppins";
+    color: #58595B;
+}
 .chart-box{
     width: 20em;
 }
@@ -8,14 +22,19 @@
     justify-content: center;
     width: 100%;
     h1 {
+        font-size: 1.5em;
+        opacity: 0.6;
         text-align: center;
     }
-}
-.analytics-cont{
-    padding: 15vh;
 }
 @media only screen and (min-width: 992px) {
     .chart-box{
         width: 30em;
+    }
+    .analytics-cont {
+        margin-top: 7em;
+        h1 {
+            font-size: 2.5em;
+        }
     }
 }

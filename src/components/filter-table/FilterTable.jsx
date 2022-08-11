@@ -216,6 +216,7 @@ export const FilterTable = () => {
     return (
         <div className="filter-table">
             <h1>School Toppers</h1>
+            <p>Results of the students that made our school proud...</p>
             <div className="switch-class">
                 <button className={show10thTable === true ? "selected" : ""} onClick={()=>switchClass()}>10<sup>th</sup></button>
                 <button className={show12thTable === true ? "selected" : ""} onClick={()=>switchClass()}>12<sup>th</sup></button>

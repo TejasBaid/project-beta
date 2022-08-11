@@ -131,6 +131,8 @@ const social = {
 export const Analytics = () => {
   return (
     <div className='analytics-cont'>
+      <h1>Analytics</h1>
+      <p>Detailed analysis of our outstanding 10th and 12th board results</p>
       <div className='tenth-analysis'>         
         <div className="chart-box">
           <h1>Overall</h1>
