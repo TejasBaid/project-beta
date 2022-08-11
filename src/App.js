@@ -33,6 +33,7 @@ function App() {
           <div>
             <Navbar />
             <Analytics />
+            <Footer/>
           </div>
         }></Route>
       </Routes>
