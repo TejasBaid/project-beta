@@ -12,9 +12,25 @@
     height: 4.5em;
     font-family: "Poppins";   
     box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.25);
-    img {
-        width: 3em;
-        margin-left: 1.5em;
+    .left {
+        width: fit-content;
+        height: 100%;
+        align-items: center;
+        img {
+            width: 3em;
+            object-fit: contain;
+            margin-left: 1.5em;
+        }
+        h1 {
+            font-family: "Fredoka One";
+            font-size: 2.5em;
+            margin-left: 0.5em; 
+            color: rgb(25, 121, 25);
+        }
+    }
+    .left, .right {
+        display: flex;
+        align-items: center;        
     }
     .links {
         position: fixed;    

@@ -9,16 +9,21 @@ export const Navbar = () => {
     }
     return (
         <div className="navbar">
-            <img src="assets/dpsrkp-logo.png" alt="DPS RKP logo"/>
-            <div className={"links " + active}>
-                <Link to="/">Home</Link>
-                <Link to="/analytics">Analytics</Link>
-                <Link to="/about">About</Link>
+            <div className="left">
+                <img src="assets/dpsrkp-logo.png" alt="DPS RKP logo"/>
+                <h1>dps rkp</h1>
             </div>
-            <div className={"hamburger " + active} onClick={() => openLinks()}>
-                <span className="bar"></span>
-                <span className="bar"></span>
-                <span className="bar"></span>
+            <div className="right">
+                <div className={"links " + active}>
+                    <Link to="/">Home</Link>
+                    <Link to="/analytics">Analytics</Link>
+                    <Link to="/about">About</Link>
+                </div>
+                <div className={"hamburger " + active} onClick={() => openLinks()}>
+                    <span className="bar"></span>
+                    <span className="bar"></span>
+                    <span className="bar"></span>
+                </div>
             </div>
         </div>
     );
