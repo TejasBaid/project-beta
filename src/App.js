@@ -7,6 +7,7 @@ import { Footer } from './components/footer/Footer';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { AboutUs } from './components/aboutus/AboutUs';
 import { Analytics } from './components/analytics/Analytics';
+import { FilterTable } from './components/filter-table/FilterTable';
 
 function App() {
   return (
@@ -16,13 +17,12 @@ function App() {
         <div className="App">      
           <Navbar />
           <Main/>
-          <div style={{marginTop: "100px" }}>
-            <div className="table-container-box">
-              <h1>School Toppers</h1>
-              <Table />
-            </div>
-            <Testimonials />
+          <div className="table-container-box">
+            <h1>School Toppers</h1>
+            <Table />
           </div>
+          <FilterTable/>
+          <Testimonials />
           <Footer/>
         </div>}>
           

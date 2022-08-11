@@ -1,0 +1,12 @@
+@media only screen and (min-width: 992px) {
+    .filter-table {
+        width: 90%;
+        margin: 5em auto;
+        .search-row {
+            justify-content: space-between;
+        }
+    }
+    .search-row input {
+        font-family: "Poppins";
+    }
+}
