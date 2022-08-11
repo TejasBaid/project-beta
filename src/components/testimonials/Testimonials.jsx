@@ -43,7 +43,7 @@ export const Testimonials = () => {
     return (
         <div className="testimonials">
             <h1>Testimonials</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt fuga blanditiis ea reiciendis quae facilis?</p>
+            <p>Messages from our students who excelled in the board exams...</p>
             <div className="testimonial-container">
                 { testimonals.map((testimonial, i) => {
                     return (
