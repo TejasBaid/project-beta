@@ -25,7 +25,7 @@ export const Testimonials = () => {
             photo: "assets/testimonials/photo4.jpeg",
             name: "Vidushi Jain",
             section: "10-B",
-            content: "The students, the teachers, the academics. At Dps RKP you get the best of all worlds, the quality of education remains unmatched."
+            content: "The students, the teachers, the academics. At DPS RKP you get the best of all worlds, the quality of education remains unmatched."
         },
         {
             photo: "assets/testimonials/photo5.jpeg",
