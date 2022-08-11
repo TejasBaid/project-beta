@@ -42,18 +42,16 @@
     border-radius: 10px;
     width: 30vw;
     
-    z-index: 100;
+    z-index: 1;
     background:  url("https://i0.wp.com/dpsrkp.net/v1wp_oll/wp-content/uploads/2019/09/Girls_Hostel-e1568185103270.jpg?fit=696%2C657&ssl=1");
 
 }
 .about-image-svg{
     position: absolute;
-    z-index: 1;
     right: 5vw;
-
     top: -10vh;
 }
-.text-gray-200{
+.text-gray-200 {
     color: #E4E7EB;
 }
 

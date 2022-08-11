@@ -31,6 +31,7 @@ function App() {
           <div>
             <Navbar />
             <AboutUs />
+            <Footer/>
           </div>
         }></Route>
         <Route path="/analytics" element={
