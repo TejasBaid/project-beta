@@ -7,37 +7,37 @@ export const Testimonials = () => {
             photo: "assets/testimonials/photo1.jpg",
             name: "Tejas Baid",
             section: "12-J",
-            content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, consequatur. Dolor voluptate labore quasi perferendis, accusantium facere numquam distinctio inventore!"
+            content: "The school has supported me and has helped me push my limits and has played a huge part in my achievement."
         },
         {
             photo: "assets/testimonials/photo2.jpeg",
             name: "Aadi Jain",
             section: "12-D",
-            content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, consequatur. Dolor voluptate labore quasi perferendis, accusantium facere numquam distinctio inventore!"
+            content: "I owe a lot to the school and the approachability and the exceptional academic environment in the school has no match."
         },
         {
             photo: "assets/testimonials/photo3.jpeg",
             name: "Adit Magotra",
             section: "12-H",
-            content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, consequatur. Dolor voluptate labore quasi perferendis, accusantium facere numquam distinctio inventore!"
+            content: "Dps Rk Puram gets a lot of the credit for my achievement like it should. It has been a huge help and lives up to its name."
         },
         {
             photo: "assets/testimonials/photo4.jpeg",
             name: "Vidushi Jain",
             section: "10-B",
-            content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, consequatur. Dolor voluptate labore quasi perferendis, accusantium facere numquam distinctio inventore!"
+            content: "The students, the teachers, the academics. At Dps RKP you get the best of all worlds, the quality of education remains unmatched."
         },
         {
             photo: "assets/testimonials/photo5.jpeg",
             name: "Nitish Sehgal",
             section: "10-D",
-            content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, consequatur. Dolor voluptate labore quasi perferendis, accusantium facere numquam distinctio inventore!"
+            content: "A lot of the credit for my academic achievements go to the school which has helped my push my limits both academically and extracurricularly"
         },
         {
             photo: "assets/testimonials/photo6.jpeg",
             name: "Gerick Razdan",
             section: "12-B",
-            content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, consequatur. Dolor voluptate labore quasi perferendis, accusantium facere numquam distinctio inventore!"
+            content: "The faculty and environment at the school is what makes all of its students THE BEST where every student tries to push their limits."
         }
     ];
     return (

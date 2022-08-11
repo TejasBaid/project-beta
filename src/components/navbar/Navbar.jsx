@@ -11,7 +11,7 @@ export const Navbar = () => {
         <div className="navbar">
             <div className="left">
                 <img src="assets/dpsrkp-logo.png" alt="DPS RKP logo"/>
-                <h1>DPS RK Puram</h1>
+                <h1>DPS RK PURAM</h1>
             </div>
             <div className="right">
                 <div className={"links " + active}>
