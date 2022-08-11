@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Navbar.scss";
+import { Link } from "react-router-dom";
 
 export const Navbar = () => {
     const [active, setActive] = useState("");
@@ -10,9 +11,9 @@ export const Navbar = () => {
         <div className="navbar">
             <img src="assets/dpsrkp-logo.png" alt="DPS RKP logo"/>
             <div className={"links " + active}>
-                <a href="./">Home</a>
-                <a href="./analytics">Analysis</a>
-                <a href="./about">About</a>
+                <Link to="/">Home</Link>
+                <Link to="/analytics">Analytics</Link>
+                <Link to="/about">About</Link>
             </div>
             <div className={"hamburger " + active} onClick={() => openLinks()}>
                 <span className="bar"></span>
