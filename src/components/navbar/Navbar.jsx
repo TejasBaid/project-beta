@@ -7,6 +7,9 @@ export const Navbar = () => {
     const openLinks = () => {
         active === "" ? setActive("active") : setActive("");
     }
+    const deActivate = () => {
+        setActive("");
+    }
     return (
         <div className="navbar">
             <div className="left">
@@ -15,10 +18,10 @@ export const Navbar = () => {
             </div>
             <div className="right">
                 <div className={"links " + active}>
-                    <Link to="/">Home</Link>
-                    <Link to="/testimonials">Testimonials</Link>
-                    <Link to="/analytics">Analytics</Link>
-                    <Link to="/about">About Us</Link>
+                    <Link to="/" onClick={() => deActivate()}>Home</Link>
+                    <Link to="/testimonials" onClick={() => deActivate()}>Testimonials</Link>
+                    <Link to="/analytics" onClick={() => deActivate()}>Analytics</Link>
+                    <Link to="/about" onClick={() => deActivate()}>About Us</Link>
                 </div>
                 <div className={"hamburger " + active} onClick={() => openLinks()}>
                     <span className="bar"></span>
