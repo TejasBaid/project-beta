@@ -5,8 +5,7 @@ export const AboutUs = () => {
   return (
     <div className="about">
         <div className="about-content">
-            <h5>ABOUT US</h5>
-            <h1>DPS RK PURAM</h1>
+            <h1>About Us</h1>
             <p>Our mission  is to nurture our students to realize their own potential and identify and achieve their goals in an environment of rich tutelage, joyful and harmonious learning while keeping alive the spirit of togetherness and ‘Service Before Self’. Our aim is to bring forth responsible citizens of the world who make a difference and who will make the school and nation proud of their achievements and stellar personal qualities 
             <p>Our vision is to prepare our children for life by:-</p>
             <ul>

@@ -1,7 +1,6 @@
 .about{
-    margin-top: 3vh;
     display: flex;
-
+    margin-top: 3vh;
     width: 100%;
     justify-content: space-between;
     padding: 5vw;
@@ -55,7 +54,7 @@
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
     .about{
-        margin-top: 6vh;
+        margin-top: 5em;
         flex-direction: column;
     }
     .about-image-svg{

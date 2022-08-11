@@ -18,7 +18,7 @@ export const Navbar = () => {
                     <Link to="/">Home</Link>
                     <Link to="/testimonials">Testimonials</Link>
                     <Link to="/analytics">Analytics</Link>
-                    <Link to="/about">About</Link>
+                    <Link to="/about">About Us</Link>
                 </div>
                 <div className={"hamburger " + active} onClick={() => openLinks()}>
                     <span className="bar"></span>
